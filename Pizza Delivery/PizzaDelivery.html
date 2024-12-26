@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Welcome to Robo Pizza Delivery! Your favorite pizza delivered hot and fresh.">
+    <title>Pete's Pizza Delivery</title>
+    <style>
+        body {
+            background-color: rgb(248, 213, 137);
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        header {
+            background-color: rgb(255, 153, 51);
+            color: rgb(0, 0, 0);
+            padding: 1rem 0;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+
+        .content {
+            margin: 2rem auto;
+            max-width: 600px;
+            padding: 1rem;
+        }
+
+        .content img {
+            display: block;
+            margin: 0 auto 1.5rem;
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        .content button {
+            background-color: rgb(255, 94, 58);
+            color: white;
+            border: none;
+            padding: 0.75rem 1.5rem;
+            font-size: 1rem;
+            border-radius: 5px;
+            cursor: pointer;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+            transition: background-color 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .content button:hover {
+            background-color: rgb(255, 122, 82);
+            box-shadow: 0 6px 8px rgba(0, 0, 0, 0.3);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Romo Pizza Delivery</h1>
+    </header>
+    <div class="content">
+        <img src="https://i.gifer.com/4V4f.gif" alt="Romo Pizza Logo">
+        <button onclick="placeOrder()">Order Now</button>
+    </div>
+    <script>
+        function placeOrder() {
+            alert("Thank you for choosing Romo Pizza! Your order is being processed.");
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook Dashboard</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background: #f0f2f5;
+        }
+        .header {
+            background: #1877f2;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+        }
+        .content {
+            margin: 20px auto;
+            width: 80%;
+            max-width: 600px;
+        }
+        .post-box {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .post-box textarea {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            resize: none;
+        }
+        .post-box button {
+            margin-top: 10px;
+            padding: 10px;
+            background-color: #1877f2;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        .post-box button:hover {
+            background-color: #145dbf;
+        }
+        .post {
+            margin-top: 20px;
+        }
+        .post h3 {
+            font-size: 18px;
+            margin: 0;
+        }
+        .post p {
+            margin: 10px 0;
+            font-size: 16px;
+            color: #333;
+        }
+        .comments {
+            margin-top: 10px;
+            border-top: 1px solid #ccc;
+            padding-top: 10px;
+        }
+        .comments p {
+            font-size: 14px;
+            margin: 5px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Facebook Dashboard</h1>
+    </div>
+    <div class="content">
+        <div class="post-box">
+            <textarea rows="4" placeholder="What's on your mind?"></textarea>
+            <button>Post</button>
+        </div>
+        <div class="post">
+            <h3>John Doe</h3>
+            <p>This is an example post on the dashboard. Feel free to comment below!</p>
+            <div class="comments">
+                <p><strong>Alice:</strong> Great post!</p>
+                <p><strong>Bob:</strong> Thanks for sharing!</p>
+            </div>
+        </div>
+        <div class="post">
+            <h3>Jane Smith</h3>
+            <p>Had a great day exploring the city!</p>
+            <div class="comments">
+                <p><strong>Chris:</strong> Looks amazing!</p>
+                <p><strong>Emma:</strong> Can't wait to see the photos!</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
