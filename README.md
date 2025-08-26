@@ -13,4 +13,4 @@ An interactive text-based adventure game that simulates the hilarious and chaoti
 Your personal portfolio, built with Python. This project serves as a template for creating a dynamic, self-updating portfolio that you can use to showcase your work. It's a fun and practical way to demonstrate your skills to potential employers.
 
 5. Registration
-A proof-of-concept for a user registration system that uses a bizarre, non-standard security protocol. The goal of this project is to explore creative and unusual approaches to common problems, highlighting that there's always more than one way to solve a problem.
+A proof-of-concept for a user registration system that uses a bizarre, non-standard security protocol. The goal of this project is to explore creative and unusual approaches to common problems, highlighting that there's always more than one way to solve a problem
